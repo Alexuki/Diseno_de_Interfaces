@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 5 - Versión Grid</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            /* Como las medidas de los canales no son iguales, creamos columnas y filas para los mismos con sus anchos en px */
+            .container {
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: 25fr 15px 40fr 20px 40fr;
+                grid-template-rows: 25fr 20px 20fr 20px 15fr 10px 20fr 20px 10fr;
+                height: 100vh;
+                padding: 20px;
+                grid-template-areas:
+                    "green  green   green   .   dark-green"
+                    "green  green   green   .   ."          /* Canal 20px */
+                    "green  green   green   .   blue"
+                    ".      .       .       .   blue"       /* Canal 20px */
+                    "red    .       violet  .   blue"
+                    ".      .       violet  .   blue"       /* Canal 10px */
+                    "orange .       violet  .   blue"
+                    "orange .       violet  .   ."          /* Canal 20px */
+                    "orange .       violet  .   brown";
+
+            /* Canales      15px            20px */
+            }
+            .green { background-color: #4DEBAA; grid-area: green; }
+            .dark-green { background-color: #387800; grid-area: dark-green; }
+            .blue { background-color: #004FA0; grid-area: blue; }
+            .red { background-color: red; grid-area: red; }
+            .violet { background-color: #F000FF; grid-area: violet; }
+            .orange { background-color: #FF6D00; grid-area: orange; }
+            .brown { background-color: #C99E60; grid-area: brown; }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="green"></div>
+            <div class="dark-green"></div>
+            <div class="blue"></div>
+            <div class="red"></div>
+            <div class="violet"></div>
+            <div class="orange"></div>
+            <div class="brown"></div>
+        </div>
+        
+    </body>
+</html>
