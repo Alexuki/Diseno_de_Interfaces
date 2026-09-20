@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 4 - Versión Float</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .container {
+                box-sizing: border-box;
+                display: flow-root;
+                border: 2px dotted black;
+                height: 100vh;
+                padding: 10px;
+            }
+            .box {
+                width: 100%; /* Ocupa el ancho completo, por lo que el siguiente float se tiene que colocar debajo */
+                height: calc(50% - 5px);
+                float: left;
+            }
+            .orange {
+                background-color: coral;
+                margin-bottom: 10px;
+            }
+            .blue {
+                background-color: cornflowerblue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box orange"></div>
+            <div class="box blue"></div>       
+        </div>
+        
+    </body>
+</html>

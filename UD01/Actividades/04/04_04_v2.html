@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 4 - Versión Flex</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .container {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                border: 2px dotted black;
+                height: 100vh;
+                padding: 10px;
+                gap: 10px;
+            }
+            .orange {
+                background-color: coral;
+                flex: 1;
+            }
+            .blue {
+                background-color: cornflowerblue;
+                flex: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="orange"></div>
+            <div class="blue"></div>       
+        </div>
+        
+    </body>
+</html>
