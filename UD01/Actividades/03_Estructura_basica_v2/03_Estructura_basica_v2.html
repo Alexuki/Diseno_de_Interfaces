@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Ejemplo uso del elemento div y del atributo id</title>
+        <meta charset="UTF-8"> <!-- No da error en el validador si no está, pero mejor indicar la codificación -->
+        <style>
+
+            /* Bloque de estilos fijo, proporcionado por el enunciado */
+            body {
+                background: #eee;
+                font-family: verdana;
+            }
+    
+            h1 {
+                color: #c0c;
+                font-size: 24px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+    
+            #cabecera {
+                color: #ff9;
+                background-color: #000;
+                padding: 10px;
+            }
+    
+            #contenido {
+                background-color: #ddd;
+                float: right;
+                height: 500px;
+                padding: 10px;
+                width: 560px;
+            }
+
+            /* Nuevos bloques de estilos para evitar ponerlos inline en los elementos */
+            body {
+                width: 720px; /* 560 + 20 de contenido, y 120 + 20 de navegación */
+            }
+
+            #navegacion {
+                background-color: gray;
+                float: left;
+                height: 500px;
+                padding: 10px;
+                width: 120px;
+            }
+
+            #navegacion ul {
+                list-style-type: none;
+            }
+
+            #navegacion a {
+                color: green;
+            }
+
+            #pie {
+                background-color: lightgray;
+                clear: both;
+                color: darkred;
+                padding: 10px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <div id="cabecera">
+            <p>Párrafo en la cabecera de la página.</p>
+        </div>
+
+        <div id="contenido">
+            <h1>Ejemplo: Uso del elemento "div" y del atributo <em>id</em></h1>
+        </div>
+
+        <div id="navegacion">
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li>
+            </ul>
+        </div>
+
+        <div id="pie">
+            <p>Párrafo en el pie de la página.</p>
+        </div>
+
+    </body>
+
+</html>
