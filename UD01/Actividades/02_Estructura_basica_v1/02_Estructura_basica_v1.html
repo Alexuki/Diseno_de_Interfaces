@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estructura básica V1</title>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                min-height: 100vh;
+                margin: 0;
+                display: grid;
+                grid-template-columns: 220px 1fr;
+                grid-template-rows: auto 1fr auto;
+            }
+            #cabecera {
+                grid-column: 1 / -1;        /* inicio / final. Son las líneas de columna, que empiezan en 1 */
+                padding: 20px 10px;
+                background-color: black;
+                color: yellow;
+            }
+            #navegacion {
+                padding: 20px 20px 0px 0px;
+                background-color: gray;
+
+                ul {
+                    list-style-type: none;
+
+                    a {
+                        color: greenyellow;
+                    }
+                }
+            }
+            #contenido {
+                background-color: rgb(242, 242, 242);
+                h1 {
+                    color: darkviolet;
+                    font-size: 1.5em;
+                    padding: 10px;
+                }
+            }
+            #pie {
+                grid-column: 1 / -1;
+                background-color: lightgray;
+                padding: 10px;
+                p {
+                    text-align: center;
+                    color: darkred;                   
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="cabecera">
+            <p>Párrafo en la cabecera de la página.</p>
+        </div>
+
+        <div id="navegacion">
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li>
+            </ul>
+
+        </div>
+
+        <div id="contenido">
+            <h1>Ejemplo: Uso del elemento "div" y del atributo <em>id</em></h1>
+        </div>
+
+        <div id="pie">
+            <p>Párrafo en el pie de la página.</p>
+        </div>
+
+    </body>
+
+</html>
