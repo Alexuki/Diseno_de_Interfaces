@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 3 - Versión Float</title>
+        <style>
+            body {
+                box-sizing: border-box;
+                margin: 0;      /* border-box NO incluye el margin. Usarmos padding en su lugar para imitar el margin por defecto */
+                padding: 8px;
+                height: 100vh;
+            }
+            .container {
+                box-sizing: border-box;
+                display: flow-root;
+                border: 2px solid black;
+                height: 100%;
+                padding: 10px;
+            }
+            .column {
+                width: calc(50% - 5px);
+                height: 100%;
+                & > :first-child {margin-bottom: 10px;} /* Elemento que sea primer hijo pero descendiente directo de .column */
+            }
+            .left {float: left;}
+            .right {float: right;}
+            .green {
+                background-color: green;
+                height: calc(50% - 5px);
+            }
+            .blue {
+                background-color: blue;
+                height: calc(25% - 5px);
+            }
+            .red {
+                background-color: red;
+                height: calc(50% - 5px);
+            }
+            .violet {
+                background-color: violet;
+                height: calc(75% - 5px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="column left">
+                <div class="green"></div>
+                <div class="red"></div>
+            </div>
+
+            <div class="column right">
+                <div class="blue"></div>
+                <div class="violet"></div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

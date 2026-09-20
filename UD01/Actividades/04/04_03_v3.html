@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 3 - Versión Grid</title>
+        <style>
+            body {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 8px;
+                height: 100vh;
+            }
+            .container {
+                display: grid;
+                box-sizing: border-box;
+                border: 2px solid black;
+                height: 100%;
+                padding: 10px;
+                gap: 10px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas: 
+                    "green blue"
+                    "green violet"
+                    "red violet"
+                    "red violet";
+            }
+
+            .green {
+                grid-area: green;
+                background-color: green;
+            }
+            .blue {
+                grid-area: blue;
+                background-color: blue;
+            }
+            .red {
+                grid-area: red;
+                background-color: red;
+            }
+            .violet {
+                grid-area: violet;
+                background-color: violet;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="green"></div>
+            <div class="red"></div>
+            <div class="blue"></div>
+            <div class="violet"></div>
+        </div>
+        
+    </body>
+</html>
