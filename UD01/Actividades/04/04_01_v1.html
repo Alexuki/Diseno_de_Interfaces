@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 1 - Versión Float</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .container {
+                box-sizing: border-box; /* Sin esto, el borde se suma a los 100vh y aparece scroll */
+                display: flow-root;
+                border: 2px dotted black;
+                height: 100vh;
+            }
+            .box {
+                /* box-sizing: border-box; */ /* No es necesario por no haber border ni padding */
+                width: calc(100% / 3);
+                height: 100%;
+                float: left;
+            }
+            .blue {background-color: blue;}
+            .white {background-color: white;}
+            .red {background-color: red;}
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box blue"></div>
+            <div class="box white"></div>
+            <div class="box red"></div>
+        </div>
+        
+    </body>
+</html>
