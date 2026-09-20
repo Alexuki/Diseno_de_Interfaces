@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 2 - Versión Float</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .container {
+                box-sizing: border-box; /* Para que la altura incluya el padding y el borde en los 100vh */
+                display: flow-root;
+                padding: 50px;
+                border: 2px dotted darkred;
+                height: 100vh;
+            }
+            .box {
+                box-sizing: border-box; /* Se va a añadir borde mediante las clases adicionales de color */
+                width: 50%;
+                height: 100%; /* Si no se indica, height por defecto es auto, y en ese caso, como las cajas están vacías, su altura sería 0 */
+                float: left;
+            }
+            .yellow {
+                border: 2px solid darkslategrey;
+                background-color: khaki;
+            }
+            .blue {
+                border: 2px solid indianred;
+                background-color: lightcyan;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box yellow"></div>
+            <div class="box blue"></div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamiento - Ejercicio 2 - Versión Grid</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .container {
+                box-sizing: border-box;
+                display: grid;
+                height: 100vh;
+                padding: 50px;
+                border: 2px dotted darkred;
+                grid-template-columns: 1fr 1fr;
+            }
+            .yellow {
+                border: 2px solid darkslategrey;
+                background-color: khaki;
+            }
+            .blue {
+                border: 2px solid indianred;
+                background-color: lightcyan;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="yellow"></div>
+            <div class="blue"></div>
+        </div>
+        
+    </body>
+</html>
