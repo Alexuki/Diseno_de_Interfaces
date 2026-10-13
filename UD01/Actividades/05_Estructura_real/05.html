@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad 05 - Estructura Real</title>
+        <!-- Carlito desde Google Fonts: mismas medidas que Calibri (solo el peso 700) -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:wght@700&display=swap">
+        <style>
+
+            /* Nivel raíz. Variables que están disponibles en toda la página */
+            :root {
+                --gap: 15px;
+                --red: #cd5c5c;
+                --green: #bdb76b;
+            }
+
+            * { box-sizing: border-box; margin: 0; }
+
+            /* Grid principal */
+            body {
+                font: bold 30px Calibri, Carlito, sans-serif;
+                color: white;
+                min-height: calc(100vh - 24px);
+                margin: 12px;
+                display: grid;
+                gap: var(--gap);
+                grid-template: 75px 1fr 75px / 1fr 3fr 1fr;    /* filas / columnas */
+            }
+
+            /* header y footer ocupan las 3 columnas */
+            body > header, body > footer { grid-column: 1 / -1; }
+
+            /* Texto centrado vertical y horizontalmente en todos los hijos directos de body y section */
+            body > *, section > * { display: grid; place-items: center; }
+
+            body > * { background-color: var(--red); }
+            section > :not(p) { background-color: var(--green); }
+
+            body > section {
+                grid-template-rows: 30px 75px 1fr 100px;
+                place-items: stretch;
+                gap: var(--gap);
+                padding: var(--gap);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>&lt;header&gt;</header>
+
+        <nav>&lt;nav&gt;</nav>
+
+        <section>
+            <p>&lt;section&gt;</p>
+            <header>&lt;header&gt;</header>
+            <article>&lt;article&gt;</article>
+            <footer>&lt;footer&gt;</footer>
+        </section>
+
+        <aside>&lt;aside&gt;</aside>
+
+        <footer>&lt;footer&gt;</footer>
+    </body>
+
+</html>

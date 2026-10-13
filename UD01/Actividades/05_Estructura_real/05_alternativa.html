@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad 05 - Estructura Real</title>
+        <style>
+
+            /* Nivel raíz. Definir aquí variables para que estén disponibles en toda la página */
+            :root {
+                --gap-width: 15px;
+            }
+
+            * { 
+                box-sizing: border-box;
+                margin: 0;
+             }
+
+            body {
+                font-family: Calibri, sans-serif;
+                padding: var(--gap-width);
+                min-height: 100vh;
+                display: grid;
+                gap: var(--gap-width);
+                grid-template-columns: 1fr 3fr 1fr;
+                grid-template-rows: minmax(4rem, auto) 1fr minmax(4rem, auto);
+                grid-template-areas: 
+                "header header  header"
+                "nav    section aside"
+                "footer footer  footer";
+            }
+
+            body > header {
+                grid-area: header;
+            }
+
+            body > nav {
+                grid-area: nav;
+            }
+
+            body > section {
+                grid-area: section;
+                padding: var(--gap-width);
+                display: flex;
+                flex-direction: column;
+                gap: var(--gap-width);
+            }
+
+            body > aside {
+                grid-area: aside;
+            }
+
+            body > footer {
+                grid-area: footer;
+                align-content: center;
+                text-align: center;
+            }
+
+            body > * {
+                background-color: orange;
+            }
+
+            section > :not(h2) {
+                background-color: lightblue;
+            }
+
+            body > * , section > :not(h2) {
+                padding: 0.5rem;
+            }
+
+            section > article {
+                flex: 1;
+                text-align: justify;
+            }
+
+            h1, h2, h3 {
+                text-align: center;
+                margin-bottom: 0.25em;
+            }
+
+            nav {
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin-bottom: 2rem;
+                }
+
+                a {
+                    display: block;
+                    padding: 0.5rem;
+                    color: inherit;
+                    text-decoration: none;
+                    border-radius: 8px;
+
+                    &:hover {
+                        background-color: lightblue;
+                    }
+                }
+            }
+
+            aside {
+                text-align: center;
+
+                figure {
+                    margin-block: 0.5rem 1rem;
+                }
+
+                .avatar {
+                    display: block;
+                    width: 60%;
+                    max-width: 8rem;
+                    aspect-ratio: 1;        /* cuadrada aunque la imagen no lo fuera */
+                    height: auto;
+                    object-fit: cover;      /* recorta en vez de deformar */
+                    border-radius: 50%;     /* círculo */
+                    border: 3px solid white;
+                    margin: 0 auto 0.5rem;  /* centrada */
+                }
+
+                figcaption span {
+                    display: block;
+                    font-size: 0.9rem;
+                }
+
+                .bio {
+                    font-size: 0.9rem;
+                    margin-bottom: 2rem;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                li + li {
+                    margin-top: 0.4rem;
+                }
+
+                a {
+                    color: inherit;
+                }
+            }
+
+            article img {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin-block: 1rem;
+            }
+
+            #subtitle {
+                text-align: center;
+            }
+     
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Página con estructura real</h1>
+            <p id="subtitle">Actividad 05 con textos mock y una imagen aleatoria de Picsum</p>
+        </header>
+
+        <nav>
+            <h3>Menú principal</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Artículos</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <h3>Otros enlaces</h3>
+            <ul>
+                <li><a href="#">Enlace 1</a></li>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2> Contenido principal del section que puede tener varios artículos</h2>
+            <header>
+                <h3>Cabecera de la primera entrada</h3>
+            </header>
+
+            <article>
+                <p><b>Contenido del article:</b></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores deserunt tempora iste necessitatibus perspiciatis fugit nihil nam neque vel laboriosam, inventore sunt totam distinctio sint voluptatibus magnam repellendus harum. Optio.</p>
+                <img 
+                    src="https://picsum.photos/seed/article/800/400"
+                    srcset= "https://picsum.photos/seed/article/400/200    400w,
+                             https://picsum.photos/seed/article/800/400    800w,
+                             https://picsum.photos/seed/article/1200/600   1200w"
+                    sizes="calc((100vw - 60px) * 0.6 - 30px)"
+                    alt="Foto aleatoria de Picsum">
+                    <!-- 
+                        Tamaño = (100% ancho ventana - 60px de paddings) * 60% que ocupa la section respecto al resto (3/5) - 2 * padding del section
+                        En srcset se dan distintos tamaños de la imagen. Se descarga la más pequeña que cumpla el ancho calculado
+                    -->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores deserunt tempora iste necessitatibus perspiciatis fugit nihil nam neque vel laboriosam, inventore sunt totam distinctio sint voluptatibus magnam repellendus harum. Optio.</p>
+                <p><em>Aquí finaliza el article</em></p>
+
+            </article>
+
+            <footer>
+                <p>Pie de la sección</p>
+            </footer>
+
+        </section>
+
+        <aside>
+            <h3>Sobre mí</h3>
+            <figure>
+                <img class="avatar" src="Alex_avatar.jpg" alt="Foto de Alejandro Martínez Corral">
+                <figcaption>
+                    <strong>Alejandro Martínez Corral</strong>
+                    <span>Estudiante de DAW</span>
+                </figcaption>
+            </figure>
+            <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorum aspernatur.</p>
+
+            <h3>Enlaces relacionados</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/">MDN Web Docs</a></li>
+                <li><a href="https://validator.w3.org">Validador W3C</a></li>
+                <li><a href="https://picsum.photos">Lorem Picsum</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <p>Alejandro Martínez Corral - 2026</p>
+        </footer>
+
+    </body>
+    
+</html>
