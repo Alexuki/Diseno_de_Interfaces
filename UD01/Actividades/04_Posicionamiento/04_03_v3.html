@@ -18,29 +18,29 @@
                 padding: 10px;
                 gap: 10px;
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: repeat(4, 1fr);
-                grid-template-areas: 
-                    "green blue"
-                    "green violet"
-                    "red violet"
-                    "red violet";
+            }
+            .column {
+                display: grid;
+                gap: 10px;
+            }
+            .left {
+                grid-template-rows: 1fr 1fr;
+            }
+            .right {
+                grid-template-rows: 1fr 3fr;
             }
 
             .green {
-                grid-area: green;
-                background-color: green;
+                background-color: #008000;
             }
             .blue {
-                grid-area: blue;
                 background-color: blue;
             }
             .red {
-                grid-area: red;
                 background-color: red;
             }
             .violet {
-                grid-area: violet;
-                background-color: violet;
+                background-color: #8a2be2;
             }
         </style>
     </head>
@@ -48,10 +48,14 @@
     <body>
 
         <div class="container">
-            <div class="green"></div>
-            <div class="red"></div>
-            <div class="blue"></div>
-            <div class="violet"></div>
+            <div class="column left">
+                <div class="green"></div>
+                <div class="red"></div>
+            </div>
+            <div class="column right">
+                <div class="blue"></div>
+                <div class="violet"></div>
+            </div>
         </div>
         
     </body>
