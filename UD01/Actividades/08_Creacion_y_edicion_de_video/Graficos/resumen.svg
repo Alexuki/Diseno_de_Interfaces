@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="479" viewBox="0 0 528 479">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="455" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="447" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="439" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="433" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="431" rx="22" fill="#1f3b4d"/>
+<rect x="36" y="24" width="446" height="431" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="431" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#1f3b4d" text-anchor="start" xml:space="preserve">CONCLUSIÓN</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">En resumen</text>
+<text x="64" y="178.35" font-family="'Noto Sans', sans-serif" font-size="27" font-weight="bold" fill="#1f3b4d" text-anchor="start" xml:space="preserve">UI</text>
+<text x="64" y="214.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">El mecanismo de comunicación</text>
+<text x="64" y="251.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">con la aplicación</text>
+<text x="64" y="302.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">UX</text>
+<text x="64" y="339.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">Cómo funciona esa</text>
+<text x="64" y="376.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">comunicación y si satisface al</text>
+<text x="64" y="413.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">usuario</text>
+</g>
+</svg>

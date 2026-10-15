@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="528"
+   height="465"
+   viewBox="0 0 528 465"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="ej_ux.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3870968"
+     inkscape:cx="263.91892"
+     inkscape:cy="299.52703"
+     inkscape:window-width="2560"
+     inkscape:window-height="1318"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="textos" />
+  <g
+     id="sombra">
+    <rect
+       x="12"
+       y="18"
+       width="504"
+       height="441"
+       rx="34"
+       fill="#0a1e2d"
+       fill-opacity="0.04"
+       id="rect1" />
+    <rect
+       x="16"
+       y="22"
+       width="496"
+       height="433"
+       rx="30"
+       fill="#0a1e2d"
+       fill-opacity="0.05"
+       id="rect2" />
+    <rect
+       x="20"
+       y="26"
+       width="488"
+       height="425"
+       rx="26"
+       fill="#0a1e2d"
+       fill-opacity="0.07"
+       id="rect3" />
+    <rect
+       x="23"
+       y="29"
+       width="482"
+       height="419"
+       rx="23"
+       fill="#0a1e2d"
+       fill-opacity="0.08"
+       id="rect4" />
+  </g>
+  <g
+     id="tarjeta"
+     transform="matrix(1,0,0,0.98800959,0,5.2877698)">
+    <rect
+       x="24"
+       y="24"
+       width="480"
+       height="417"
+       rx="22"
+       fill="#e07a3f"
+       id="rect5" />
+    <rect
+       x="36"
+       y="24"
+       width="446"
+       height="417"
+       fill="#ffffff"
+       id="rect6" />
+    <rect
+       x="64"
+       y="24"
+       width="440"
+       height="417"
+       rx="22"
+       fill="#ffffff"
+       id="rect7" />
+  </g>
+  <g
+     id="textos">
+    <text
+       x="64"
+       y="79.1"
+       font-family="'Noto Sans', sans-serif"
+       font-size="22"
+       font-weight="bold"
+       fill="#e07a3f"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text7">UX</text>
+    <text
+       x="64"
+       y="124"
+       font-family="'Noto Sans', sans-serif"
+       font-size="38"
+       font-weight="bold"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text8">La UX se pregunta…</text>
+    <circle
+       cx="77"
+       cy="187"
+       r="13"
+       fill="#e07a3f"
+       id="circle8" />
+    <polyline
+       points="71,169 76,174 84,163"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline8"
+       transform="translate(0,18)" />
+    <text
+       x="104"
+       y="194.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text9">¿Es fácil de localizar?</text>
+    <circle
+       cx="77"
+       cy="224"
+       r="13"
+       fill="#e07a3f"
+       id="circle9" />
+    <polyline
+       points="71,206 76,211 84,200"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline9"
+       transform="translate(0,18)" />
+    <text
+       x="104"
+       y="231.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text10">¿Se entiende cómo usarlo?</text>
+    <circle
+       cx="77"
+       cy="261"
+       r="13"
+       fill="#e07a3f"
+       id="circle10" />
+    <polyline
+       points="71,243 76,248 84,237"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline10"
+       transform="translate(0,18)" />
+    <text
+       x="104"
+       y="268.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text11">¿Es cómodo hacer clic?</text>
+    <circle
+       cx="77"
+       cy="298"
+       r="13"
+       fill="#e07a3f"
+       id="circle11" />
+    <polyline
+       points="71,280 76,285 84,274"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline11"
+       transform="translate(0,18)" />
+    <text
+       x="104"
+       y="305.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text12">¿Se puede usar sin ratón?</text>
+    <circle
+       cx="77"
+       cy="335"
+       r="13"
+       fill="#e07a3f"
+       id="circle12" />
+    <polyline
+       points="71,317 76,322 84,311"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline12"
+       transform="translate(0,18)" />
+    <text
+       x="104"
+       y="342.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text13">Tasa de éxito.</text>
+    <circle
+       cx="77"
+       cy="373"
+       r="13"
+       fill="#e07a3f"
+       id="circle14" />
+    <polyline
+       points="71,391 76,396 84,385"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="4"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline14"
+       transform="translate(0,-18)" />
+    <text
+       x="104"
+       y="380.25"
+       font-family="'Noto Sans', sans-serif"
+       font-size="25px"
+       font-weight="normal"
+       fill="#22313a"
+       text-anchor="start"
+       xml:space="preserve"
+       id="text15">¿El proceso es satisfactorio?</text>
+  </g>
+</svg>
