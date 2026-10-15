@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="396" viewBox="0 0 528 396">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="372" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="364" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="356" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="350" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="348" rx="22" fill="#1f3b4d"/>
+<rect x="36" y="24" width="446" height="348" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="348" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#1f3b4d" text-anchor="start" xml:space="preserve">FRONT-END</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">El front-end lo</text>
+<text x="64" y="174" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">construye</text>
+<text x="64" y="224.15" font-family="'DejaVu Sans Mono', monospace" font-size="23" font-weight="normal" fill="#1f3b4d" text-anchor="start" xml:space="preserve">&lt;button class="comprar"&gt;</text>
+<text x="64" y="256.15" font-family="'DejaVu Sans Mono', monospace" font-size="23" font-weight="normal" fill="#1f3b4d" text-anchor="start" xml:space="preserve">  Comprar</text>
+<text x="64" y="288.15" font-family="'DejaVu Sans Mono', monospace" font-size="23" font-weight="normal" fill="#1f3b4d" text-anchor="start" xml:space="preserve">&lt;/button&gt;</text>
+<text x="64" y="333.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="normal" fill="#60707a" text-anchor="start" xml:space="preserve">Se ve así y funciona al pulsarlo</text>
+</g>
+</svg>

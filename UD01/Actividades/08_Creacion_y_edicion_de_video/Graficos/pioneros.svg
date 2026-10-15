@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="361" viewBox="0 0 528 361">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="337" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="329" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="321" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="315" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="313" rx="22" fill="#468dae"/>
+<rect x="36" y="24" width="446" height="313" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="313" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#468dae" text-anchor="start" xml:space="preserve">HISTORIA</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">Pioneros de la UI</text>
+<text x="64" y="173.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="normal" fill="#60707a" text-anchor="start" xml:space="preserve">Mediados del siglo XX</text>
+<text x="64" y="221.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">· Douglas Engelbart</text>
+<text x="64" y="258.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">· Ivan Sutherland</text>
+<text x="64" y="295.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">· Alan Kay</text>
+</g>
+</svg>

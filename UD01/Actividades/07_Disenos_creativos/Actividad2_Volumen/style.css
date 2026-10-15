@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #1b1b1b;
+    color: #e8e8e8;
+    font-family: sans-serif;
+}
+
+.dial {
+    position: relative; /* referencia para los números */
+}
+
+.numero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%; /* Colocar los números en el centro del dial */
+
+    /*
+     * Distribuye los números alrededor del dial desde su centro:
+     * Se colocan en un arco de -135º a +135º (270º) repartidos en 10 huecos de 27º.
+     * 1. rotate() orienta el desplazamiento en la dirección del radio.
+     * 2. translateY() desplaza el número 110px en esa dirección. El eje Y está girado.
+     * 3. Deshacer el giro del número para recuperar su posición vertical.
+     */
+    transform:
+        rotate(calc(-135deg + var(--i) * 27deg))
+        translateY(-110px)
+        rotate(calc(135deg - var(--i) * 27deg));
+
+    font-size: 14px;
+    color: #999;
+    transition: color 0.2s;
+    
+    &.activo {
+        color: orange;
+        text-shadow: 0 0 8px orange;
+    }
+}
+
+.rueda {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    cursor: grab;
+    background: radial-gradient(circle at 35% 30%, #555, #222);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border: 4px solid #555;
+    transition: scale 0.2s, box-shadow 0.2s;
+
+    &.girando {
+        cursor: grabbing;
+        scale: 1.05;
+        box-shadow: 0 0 25px orange;
+    }
+}
+
+.marca {
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    top: 10px;
+    left: 50%;
+    translate: -50% 0;
+    transform-origin: 50% 70px; /* Gira alrededor del centro de la rueda */
+}
+

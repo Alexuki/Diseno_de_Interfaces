@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="465" viewBox="0 0 528 465">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="441" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="433" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="425" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="419" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="417" rx="22" fill="#e07a3f"/>
+<rect x="36" y="24" width="446" height="417" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="417" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#e07a3f" text-anchor="start" xml:space="preserve">UX</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">La UX se pregunta…</text>
+<circle cx="77" cy="169" r="13" fill="#e07a3f"/>
+<polyline points="71,169 76,174 84,163" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="176.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">¿Es fácil de localizar?</text>
+<circle cx="77" cy="206" r="13" fill="#e07a3f"/>
+<polyline points="71,206 76,211 84,200" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="213.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">¿Se entiende cómo usarlo?</text>
+<circle cx="77" cy="243" r="13" fill="#e07a3f"/>
+<polyline points="71,243 76,248 84,237" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="250.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">¿Es cómodo hacer clic?</text>
+<circle cx="77" cy="280" r="13" fill="#e07a3f"/>
+<polyline points="71,280 76,285 84,274" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="287.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">¿Se puede usar sin ratón?</text>
+<circle cx="77" cy="317" r="13" fill="#e07a3f"/>
+<polyline points="71,317 76,322 84,311" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="324.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">Tasa de éxito: ¿compran o se</text>
+<circle cx="77" cy="354" r="13" fill="#e07a3f"/>
+<polyline points="71,354 76,359 84,348" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="361.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">rinden?</text>
+<circle cx="77" cy="391" r="13" fill="#e07a3f"/>
+<polyline points="71,391 76,396 84,385" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="398.25" font-family="'Noto Sans', sans-serif" font-size="25" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">¿Satisface todo el proceso?</text>
+</g>
+</svg>

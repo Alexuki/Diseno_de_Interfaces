@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="368" viewBox="0 0 528 368">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="344" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="336" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="328" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="322" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="320" rx="22" fill="#e07a3f"/>
+<rect x="36" y="24" width="446" height="320" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="320" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#e07a3f" text-anchor="start" xml:space="preserve">HISTORIA</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">Origen de la UX</text>
+<text x="64" y="177.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">Bauhaus:</text>
+<text x="64" y="214.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">«La forma sigue a la función»</text>
+<text x="64" y="265.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">Término «UX»:</text>
+<text x="64" y="302.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="normal" fill="#22313a" text-anchor="start" xml:space="preserve">Don Norman, años 90</text>
+</g>
+</svg>

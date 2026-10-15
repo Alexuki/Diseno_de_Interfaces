@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="416" viewBox="0 0 528 416">
+<g id="sombra">
+<rect x="12" y="18" width="504" height="392" rx="34" fill="#0a1e2d" fill-opacity="0.04"/>
+<rect x="16" y="22" width="496" height="384" rx="30" fill="#0a1e2d" fill-opacity="0.05"/>
+<rect x="20" y="26" width="488" height="376" rx="26" fill="#0a1e2d" fill-opacity="0.07"/>
+<rect x="23" y="29" width="482" height="370" rx="23" fill="#0a1e2d" fill-opacity="0.08"/>
+</g>
+<g id="tarjeta">
+<rect x="24" y="24" width="480" height="368" rx="22" fill="#468dae"/>
+<rect x="36" y="24" width="446" height="368" fill="#ffffff"/>
+<rect x="64" y="24" width="440" height="368" rx="22" fill="#ffffff"/>
+</g>
+<g id="textos">
+<text x="64" y="79.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="bold" fill="#468dae" text-anchor="start" xml:space="preserve">NO CONFUNDIR</text>
+<text x="64" y="124" font-family="'Noto Sans', sans-serif" font-size="38" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">UI no es front-end</text>
+<text x="64" y="178.35" font-family="'Noto Sans', sans-serif" font-size="27" font-weight="bold" fill="#468dae" text-anchor="start" xml:space="preserve">UI: el diseño</text>
+<text x="64" y="210.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="normal" fill="#60707a" text-anchor="start" xml:space="preserve">Cómo se ve y se organiza</text>
+<text x="64" y="258.3" font-family="'Noto Sans', sans-serif" font-size="26" font-weight="bold" fill="#22313a" text-anchor="start" xml:space="preserve">Front-end: el código</text>
+<text x="64" y="292.15" font-family="'DejaVu Sans Mono', monospace" font-size="23" font-weight="normal" fill="#1f3b4d" text-anchor="start" xml:space="preserve">HTML · CSS · JavaScript</text>
+<text x="64" y="323.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="normal" fill="#60707a" text-anchor="start" xml:space="preserve">Hace que el diseño funcione en el</text>
+<text x="64" y="353.1" font-family="'Noto Sans', sans-serif" font-size="22" font-weight="normal" fill="#60707a" text-anchor="start" xml:space="preserve">navegador</text>
+</g>
+</svg>

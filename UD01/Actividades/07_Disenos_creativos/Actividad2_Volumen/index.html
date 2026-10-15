@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Music by <a href="https://pixabay.com/users/jonasblakewood-48502311/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=305508">JonasBlakewood</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=305508">Pixabay</a> -->
+    <!-- jonasblakewood-soft-rock-soft-rock-music-305508.mp3 -->
+     
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Diseños creativos - Control de volumen</title>
+    </head>
+
+    <body>
+
+        <audio id="musica" src="musica.mp3" loop></audio>
+
+        <!-- Se usa style para definir variables con un valor para cada span -->
+        <div class="dial">
+
+            <span class="numero" style="--i: 0">0</span>
+            <span class="numero" style="--i: 1">1</span>
+            <span class="numero" style="--i: 2">2</span>
+            <span class="numero" style="--i: 3">3</span>
+            <span class="numero" style="--i: 4">4</span>
+            <span class="numero" style="--i: 5">5</span>
+            <span class="numero" style="--i: 6">6</span>
+            <span class="numero" style="--i: 7">7</span>
+            <span class="numero" style="--i: 8">8</span>
+            <span class="numero" style="--i: 9">9</span>
+            <span class="numero" style="--i: 10">10</span>
+
+            <div class="rueda" id="rueda">
+                <div class="marca"></div>
+            </div>
+
+        </div>
+  
+        <p class="volumen">Volumen: <span id="valor">0</span></p>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

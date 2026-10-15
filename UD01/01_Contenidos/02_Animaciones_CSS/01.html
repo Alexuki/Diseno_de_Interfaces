@@ -1,7 +1,8 @@
 <!-- Documento original
+
+TRANSITION
 <!DOCTYPE html>
 <html>
-
     <head>
         <style>
             div {
@@ -13,13 +14,78 @@
             }
         </style>
     </head>
-
     <body>
         <h1>Transformaciones</h1>
         <div></div>
     </body>
-
 </html>
+
+TRANSITION 1
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 2s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Transición</h1>
+        <div></div>
+    </body>
+</html>
+
+TRANSITION 2
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 2s;
+            }
+            div:hover {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Transición</h1>
+    <div></div>
+    </body>
+</html>
+
+TRANSITION 3
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 2s, height 4s, background-color 3s;
+            }
+            div:hover {
+                width: 300px;
+                height: 300px;
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The transition Property</h1>
+        <p>Hover over the div element below, to see the transition effect:</p>
+        <div></div>
+    </body>
+</html>
+
 -->
 
 
@@ -29,21 +95,70 @@
     <head>
         <style>
             div {
-                margin: 0 100px;
+                margin: 100px;
                 width: 150px;
                 height: 150px;
                 background-color: yellow;
                 border: 1px solid black;
-                /*transform: translate(50px, 100px) rotate(20deg) scale(1.5, 0.75);*/
-                transform: skew(10deg, 30deg);
-                /*transform: matrix(1.5, -0.5, 0.5, 2, 150, 50);*/
             }
+
+            .translate { transform: translate(50px, 100px) }
+
+            .rotate { transform: rotate(20deg) }
+
+            .scale { transform: scale(1.5, 0.75) }
+
+            .skew { transform: skew(10deg, 30deg) }
+
+            .matrix-1 { transform: matrix(1, 0, 0.5, 1, 150, 0) }
+
+            .matrix-2 { transform: matrix(1, -0.3, 0, 1, 0, 0) }
+
+            div.transition-1 {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 2s;
+            }
+            div.transition-1:hover {
+                width: 300px;
+            }
+
+            div.transition-3 {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition: width 2s, height 4s, background-color 3s;
+            }
+            div.transition-3:hover {
+                width: 300px;
+                height: 300px;
+                background-color: orange;
+            }
+
+
+
         </style>
     </head>
 
     <body>
         <h1>Transformaciones</h1>
-        <div></div>
+        <div>Caja inicial</div>
+        <div class="translate">translate(50px, 100px)</div>
+        <div class="rotate">rotate(20deg)</div>
+        <div class="scale">scale(1.5, 0.75)</div>
+        <div class="skew">skew(10deg, 30deg)</div>
+        <div class="matrix-1">matrix(1, 0, 0.5, 1, 150, 0)</div>
+        <div class="matrix-2">matrix(1, -0.3, 0, 1, 0, 0)</div>
+
+        <h1>Transición</h1>
+        <div class="transition-1"></div>
+
+        <h1>The transition Property</h1>
+        <p>Hover over the div element below, to see the transition effect:</p>
+        <div class="transition-3"></div>
+
+        
     </body>
 
 </html>
