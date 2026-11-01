@@ -5,3 +5,6 @@ _scripts
 *.mp4
 *.avi
 *.mlt
+ejemplos
+# Archivo de trabajo de los esquemas (>100 MB, supera el límite de GitHub)
+UD02/Actividades/01_Analisis_de_interfaces_de_usuario/MARTINEZ_CORRAL_ALEJANDRO_Analisis_interfaz_web.svg
